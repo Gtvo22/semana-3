@@ -1,0 +1,91 @@
+.app {
+    background: #f1f1f1;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-areas:
+        "encabezado"
+        "contenido"
+        "rodapie";
+    grid-template-columns: auto;
+    grid-template-rows: 50px auto auto;
+}
+.menu__link {
+    color:#333333;
+    padding: .5rem 1rem;
+}
+.menu__link:hover, .menu__link:active{
+    border-bottom: 2px solid #0073e6;
+}
+.encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background:#FFFF;
+}
+.nav-wrap {
+    height: 115px;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.input-group {
+    flex-grow: 3;
+}
+.sobre {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #e5e5e5;
+    border-radius: 20px;
+}
+.buscar {
+    width: 65%;
+    max-width: 395px;
+    height: 40px;
+    color: #a2a2a2;
+    font-size: 16px;
+    margin-left: 32px;
+    padding-left: 2em;
+    border-right: none;
+    background-color: #f5f5f5;
+    
+}
+.input-group .buscar:focus-visible {
+    border-width: 1px;
+    outline-color: #f5f5f5;
+}
+.search-button {
+    height: 30px;
+    margin-left: -35px;
+    border-left: none;
+    background-color: #f5f5f5;
+    color: #a2a2a2;
+    cursor: pointer;
+}
+
+
+/* Section: Rodapie */
+
+.footer-footer {
+    width: 100%;
+    height: auto;
+    background-color: var(--texto-destaque);
+    text-align: center;
+    padding: 32px 0;
+}
+.footer-footer p {
+    line-height: 16px;
+}
+@media screen and (max-width: 856px){
+    
+}
+
+
+
+
+
+
+
+
+
+
+

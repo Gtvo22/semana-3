@@ -1,0 +1,56 @@
+/*-----------Variables------------*/
+
+:root {
+    --bg-color: #ebebeb;
+    --input-placeholder: #d4d4d4;
+    --input-bg: #efefef;
+    --texto-destaque:#FFFF;
+    --azul-destaque: #2a7ae4;
+    --bg-contacto: #Eaf2fd;
+}
+a {
+    text-decoration: none;
+    color: var(--azul-destaque);
+    font-weight: 800;
+}
+
+
+/* Section:  Banner */
+
+.banner {
+    height: 352px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 41.15%, rgba(0, 0, 0, 0.8) 100%), url(../img/innovacion.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 32px;
+    gap: 16px;
+}
+.banner-title {
+    font-size: 45px;
+    width: 751px;
+    font-weight: 700;
+    font-family: 'Raleway';
+    font-style: normal;
+    color: var(--texto-destaque);
+    line-height: 61px;
+}
+.banner_descrip {
+    font-size: 16px;
+    color:var(--texto-destaque);
+    line-height: 26px;
+    font-weight: 700;
+    width: 751px;
+}
+
+.banner-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    justify-content: flex-start;
+    gap: 20px 0;
+}
