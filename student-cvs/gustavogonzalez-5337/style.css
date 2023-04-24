@@ -1,0 +1,262 @@
+
+body {
+    background: linear-gradient(to top, rgb(46, 4, 160), rgb(9, 202, 128));
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+section {
+    background: rgb(191, 217, 238) ; 
+    padding: 20px 0px;
+    width: 100%;
+    margin: 30px 0px;         
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+     
+}
+article {
+    text-align: justify;
+    margin: 30px;
+    padding: 10px;
+    border: 20px;
+    font-size: 20px;
+}
+h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+h2{
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+h3{
+    font-size: 15px;
+}
+p{
+    margin: 5px;
+}
+table {
+    margin: 0 auto;
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    border: 2px solid rgb(26, 6, 117);
+    
+}
+th, td {
+    width: 25%;
+    text-align: left;
+    vertical-align: top;
+    border: 1px solid #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(50, 11, 245);
+
+}
+:link, a:visited, a:active{
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+.list_item{
+    text-align: center;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    color: rgb(100, 7, 7);
+}
+input{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+    text-decoration: #464646;
+}
+textarea{
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #C8C8C8;
+    background: #FFFFFF;
+    align-self: stretch;
+}
+button{
+    background: #2A7AE4;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+    
+}
+button:hover{
+    background: #0625d6;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 16px;
+    line-height: 19px;
+    margin-top: 32px;
+    border: none;
+}
+.formcontato__contacto{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 50px;
+    
+}
+.contacto__img{
+    width: 80%;
+    margin: 100px auto;
+    
+}
+#terms{
+    width: 15px;
+    height: 15px;
+}
+span{
+	color: #0c0457; 
+}
+.footer{
+    background: none
+}
+.pie{
+    text-align: center;   
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+input:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+
+textarea:focus{
+	outline:0;
+	border: 1px solid #97d848;
+}
+
+/* Layouts Reponsive Mobile*/
+
+@media screen and (max-width: 480px) {
+
+    section {
+        background: rgb(9, 202, 128);
+                 
+    }  
+    article {
+        
+        font-size: 20px;
+    }
+    h1{
+        text-align: center;
+    }
+    h2{
+        margin: 10px;
+        padding: 10px;
+        font-size: 25px;
+        
+    }
+    h3{
+        font-size: 15px;
+    }
+    p{
+        margin: 5px;
+        font-size: 15px;
+    }
+    table {
+        width: 80%;
+        margin: 0 auto; 
+    }
+    
+    a{   
+        font-size: 20px;
+        font-weight: 500;  
+    }
+    
+    .list_item{ 
+        font-size: 15px;
+        
+    }
+    input{
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;    
+    }
+    textarea{
+        margin-top: 10px;
+        width: 100%;
+        height: 100%;
+    }
+    button{
+    line-height: 15px;
+
+    }
+    .formcontato__contacto{
+        display: block;
+        margin: 0px 50px;
+   
+    }
+    .contacto__img{
+        width: 50%;
+        margin: 0 auto;
+     
+    }  
+    .pie{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width: 780px) {
+    .list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .formcontato__contacto{
+        display: block;
+        margin: 0px 50px;
+   
+    }
+    .contacto__img{
+        width: 50%;
+        margin: 0 auto;
+     
+    }  
+    
+}
